@@ -1,2 +1,2 @@
 # exam-projects
-Projects for demonstrating skills during the exam
+This section includes projects created to demonstrate skills during the exam
