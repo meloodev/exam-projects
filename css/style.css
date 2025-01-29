@@ -1,0 +1,123 @@
+@import url(./null.css);
+@import url(./fonts.css);
+
+body {
+    font-family: "Inter", serif;
+    font-size: 14px;
+    /*font-family: "Source Code Pro", serif; */
+    /* font-family: 'NimbusMono-Regular'; */
+
+}
+
+
+header {
+    margin-bottom: 108px;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background: url('../img/header/bg.webp') no-repeat center top / cover; */
+    /* aspect-ratio: 3336 / 1008; */
+
+    background: url('../img/header/bg-2.webp') no-repeat center top / cover;
+    aspect-ratio: 1920 / 600;
+
+    clip-path: polygon(0 0, 100% 0, 100% 30%, 0 100%);
+    height: 580px;
+    width: 100%;
+    z-index: -5;
+}
+
+
+/* background: url('../img/bg.webp') no-repeat center center / cover;
+    aspect-ratio: 3504 / 1079;
+    clip-path: polygon(0 0, 100% 0, 100% calc(30%), 0 100%); */
+
+
+
+.container {
+    max-width: 1084px;
+    padding: 0px 16px;
+    margin: 0 auto;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 0px;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.header__nav li:nth-child(1) img {
+    width: 60px;
+    height: 25px;
+}
+
+.header__nav li:not(:first-child) {
+    padding: 0px 20px;
+}
+
+.header__nav li:first-child {
+    padding: 5px;
+}
+
+.header__signin {
+    display: flex;
+    align-items: center;
+}
+
+.header__signin li {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header__signin li:first-child {
+    margin-right: 21px;
+}
+
+.header__signin li:first-child a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+    padding: 4px 0px 4px 0px;
+}
+
+.header__signin button {
+    padding: 4px 15px;
+    border-radius: 99px;
+    font-weight: 500;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.header__signin button span {
+
+    line-height: 24px;
+    /* color: #E17537; */
+    display: inline-block;
+    background: linear-gradient(90deg, #E18538 0%, #E17537 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-family: "Inter", serif;
+    font-weight: 500;
+}
+
