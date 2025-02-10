@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const ctx = document.getElementById('myChart').getContext('2d');
     const ctx1 = document.getElementById('myChart1').getContext('2d');
     const ctx2 = document.getElementById('myChart2').getContext('2d');
+    
     new Chart(ctx, {
         type: 'line',
         data: {
