@@ -2,6 +2,9 @@
 @import url(./fonts.css);
 
 
+/* styles */
+@import url(./markup-styles/header.css);
+/* styles */
 
 .lines {
     position: relative;
