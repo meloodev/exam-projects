@@ -3,8 +3,7 @@
 
 
 /* styles */
-
-@import url(./markup-styles/sec-1-financial.css);
+@import url(./markup-styles/header.css);
 /* styles */
 
 .lines {
@@ -12,11 +11,15 @@
     width: 100%;
 }
 
+
 @media (max-width: 768px) {
     body.lock {
         overflow-y: hidden;
     }
 }
+
+
+
 
 body {
     font-family: "Inter", serif;
