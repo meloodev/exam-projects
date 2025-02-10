@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
     body = document.querySelector('body');
 
 
-    // console.log(burger);
 
     burger.addEventListener('click', () => {
         headerMenu.classList.add('active');
