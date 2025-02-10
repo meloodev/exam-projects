@@ -1,13 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
-
-
     const burger = document.querySelector('header .header__burger'),
         headerMenu = document.querySelector('header .header__menu'),
         closeIcon = document.querySelector('header .header__nav .close-icon');
     body = document.querySelector('body');
 
 
-    // console.log(burger);
 
     burger.addEventListener('click', () => {
         headerMenu.classList.add('active');
