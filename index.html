@@ -13,8 +13,8 @@
 </head>
 
 <body>
-
-<header>
+  
+    <header>
         <div class="container">
             <div class="header__inner">
                 <nav class="header__menu" aria-label="Main Navigation">
@@ -72,260 +72,395 @@
             </div>
         </div>
     </header>
-<main>
-    <section class="financial">
-        <div class="container borders">
-            <div class="financial__inner">
-                <div class="financial__items">
-                    <div class="financial__item">
-                        <h1 class="financial__title" aria-label="Card Title">Financial infrastructure for the
-                            internet
-                        </h1>
-                        <p class="financial__text">
-                            Millions of companies of all sizes use Stripe online and in
-                            person to accept payments, send payouts, automate
-                            financial processes, and ultimately grow revenue.
-                        </p>
-                        <div class="financial__item-sales">
-                            <a href="#!">
-                                <span>Start now</span>
-                                <img src="./img/section-1/right-arrow-white.svg" alt="start-now">
-                            </a>
-                            <a href="#!">
-                                <span class="financial__item-sale">Contact sales</span>
-                                <img src="./img/section-1/right-arrow-black.svg" alt="contact-sales">
-                            </a>
+
+    <main>
+        <section class="financial">
+            <div class="container borders">
+                <div class="financial__inner">
+                    <div class="financial__items">
+                        <div class="financial__item">
+                            <h1 class="financial__title" aria-label="Card Title">Financial infrastructure for the
+                                internet
+                            </h1>
+                            <p class="financial__text">
+                                Millions of companies of all sizes use Stripe online and in
+                                person to accept payments, send payouts, automate
+                                financial processes, and ultimately grow revenue.
+                            </p>
+                            <div class="financial__item-sales">
+                                <a href="#!">
+                                    <span>Start now</span>
+                                    <img src="./img/section-1/right-arrow-white.svg" alt="start-now">
+                                </a>
+                                <a href="#!">
+                                    <span class="financial__item-sale">Contact sales</span>
+                                    <img src="./img/section-1/right-arrow-black.svg" alt="contact-sales">
+                                </a>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="financial__item board">
-                        <form class="financial__card">
+                        <div class="financial__item board">
+                            <form class="financial__card">
 
-                            <div class="financial__card-header">
-                                <div class="financial__card-logo">
-                                    <img src="./img/section-1/rocket-card-logo.png" alt="card-logo">
-                                </div>
-                                <h3 class="financial__card-title">Abstraction Magazine</h3>
-                                <div class="financial__card-subtitle"><span>$19</span> per month</div>
-                                <button type="submit" class="financial__card-btn">
-                                    <img src="./img/section-1/rocket-card-apple-pay.svg" alt="payments">
-                                </button>
-                                <div class="financial__card-paymentmethod">
-                                    <span>Or pay with card</span>
-                                </div>
-                            </div>
-
-                            <div class="financial__card-body">
-                                <div class="financial__card-email">
-                                    <label for="mail">Email</label>
-                                    <input class="financial__card-email" type="email" id="mail" placeholder="">
-                                </div>
-
-                                <div class="financial__card-number">
-                                    <label for="card-num">Card Information</label>
-                                    <input type="text" id="card-num" placeholder="Number">
-                                    <img src="./img/section-1/rocket-card-visa.svg" alt="visa">
-                                </div>
-                                <div class="financial__card-info">
-                                    <input class="financial__card-month" type="text" placeholder="MM / YY">
-                                    <div class="financial__card-cvc">
-                                        <input class="financial__card-code" type="password" placeholder="CVC"
-                                            maxlength="3">
-                                        <img src="./img/section-1/rocket-card-cvc.svg" alt="cvc">
+                                <div class="financial__card-header">
+                                    <div class="financial__card-logo">
+                                        <img src="./img/section-1/rocket-card-logo.png" alt="card-logo">
+                                    </div>
+                                    <h3 class="financial__card-title">Abstraction Magazine</h3>
+                                    <div class="financial__card-subtitle"><span>$19</span> per month</div>
+                                    <button type="submit" class="financial__card-btn">
+                                        <img src="./img/section-1/rocket-card-apple-pay.svg" alt="payments">
+                                    </button>
+                                    <div class="financial__card-paymentmethod">
+                                        <span>Or pay with card</span>
                                     </div>
                                 </div>
-                                <div class="card__locations">
-                                    <label for="location">Country or region</label>
-                                    <select id="location">
-                                        <option value="new-york-us" selected>New York, United States</option>
-                                        <option value="london-gb">London, United Kingdom</option>
-                                        <option value="toronto-ca">Toronto, Canada</option>
-                                        <option value="sydney-au">Sydney, Australia</option>
-                                        <option value="berlin-de">Berlin, Germany</option>
-                                        <option value="paris-fr">Paris, France</option>
-                                        <option value="rome-it">Rome, Italy</option>
-                                        <option value="madrid-es">Madrid, Spain</option>
-                                        <option value="tokyo-jp">Tokyo, Japan</option>
-                                        <option value="beijing-cn">Beijing, China</option>
-                                    </select>
-                                </div>
-                                <input class="financial__card-zip" type="text" placeholder="ZIP">
-                            </div>
 
-                            <div class="financial__card-footer">
-                                <button type="submit">Pay</button>
-                            </div>
-                        </form>
-
-
-                        <div class="dashboard">
-
-                            <div class="dashboard__items">
-                                <div class="dashboard__item">
-                                    <div class="dashboard__item-left">
-                                        <img class="dashboard__rocket-logo" src="./img/section-1/rocket-logo.svg"
-                                            alt="rocket-logo">
-                                        <h3 class="dashboard__item-title">Rocket Rides</h3>
-                                        <img class="dashboard__rocket-arrow"
-                                            src="./img/section-1/rocket-arrow-down.svg" alt="arrow-down">
+                                <div class="financial__card-body">
+                                    <div class="financial__card-email">
+                                        <label for="mail">Email</label>
+                                        <input class="financial__card-email" type="email" id="mail" placeholder="">
                                     </div>
-                                </div>
-                                <div class="dashboard__item">
-                                    <div class="dashboard__item-search">
-                                        <label for="search">
-                                            <img src="./img/section-1/rocket-search.svg" alt="serch-icon">
-                                        </label>
-                                        <input type="text" id="search" placeholder="Search" aria-label="Search">
+
+                                    <div class="financial__card-number">
+                                        <label for="card-num">Card Information</label>
+                                        <input type="text" id="card-num" placeholder="Number">
+                                        <img src="./img/section-1/rocket-card-visa.svg" alt="visa">
                                     </div>
-                                    <div class="dashboard__item-body">
+                                    <div class="financial__card-info">
+                                        <input class="financial__card-month" type="text" placeholder="MM / YY">
+                                        <div class="financial__card-cvc">
+                                            <input class="financial__card-code" type="password" placeholder="CVC"
+                                                maxlength="3">
+                                            <img src="./img/section-1/rocket-card-cvc.svg" alt="cvc">
+                                        </div>
+                                    </div>
+                                    <div class="card__locations">
+                                        <label for="location">Country or region</label>
+                                        <select id="location">
+                                            <option value="new-york-us" selected>New York, United States</option>
+                                            <option value="london-gb">London, United Kingdom</option>
+                                            <option value="toronto-ca">Toronto, Canada</option>
+                                            <option value="sydney-au">Sydney, Australia</option>
+                                            <option value="berlin-de">Berlin, Germany</option>
+                                            <option value="paris-fr">Paris, France</option>
+                                            <option value="rome-it">Rome, Italy</option>
+                                            <option value="madrid-es">Madrid, Spain</option>
+                                            <option value="tokyo-jp">Tokyo, Japan</option>
+                                            <option value="beijing-cn">Beijing, China</option>
+                                        </select>
+                                    </div>
+                                    <input class="financial__card-zip" type="text" placeholder="ZIP">
+                                </div>
+
+                                <div class="financial__card-footer">
+                                    <button type="submit">Pay</button>
+                                </div>
+                            </form>
 
 
-                                        <div class="dashboard__summary">
-                                            <h3 class="dashboard__body-title">Today</h3>
-                                            <div class="dashboard__summary-items">
-                                                <div class="dashboard__summary-item">
-                                                    <div class="dashboard__summary-title">
-                                                        <span>Net volume</span>
-                                                        <img src="./img/section-1/rocket-small-arrow-down.svg"
-                                                            alt="arrow-down">
+                            <div class="dashboard">
+
+                                <div class="dashboard__items">
+                                    <div class="dashboard__item">
+                                        <div class="dashboard__item-left">
+                                            <img class="dashboard__rocket-logo" src="./img/section-1/rocket-logo.svg"
+                                                alt="rocket-logo">
+                                            <h3 class="dashboard__item-title">Rocket Rides</h3>
+                                            <img class="dashboard__rocket-arrow"
+                                                src="./img/section-1/rocket-arrow-down.svg" alt="arrow-down">
+                                        </div>
+                                    </div>
+                                    <div class="dashboard__item">
+                                        <div class="dashboard__item-search">
+                                            <label for="search">
+                                                <img src="./img/section-1/rocket-search.svg" alt="serch-icon">
+                                            </label>
+                                            <input type="text" id="search" placeholder="Search" aria-label="Search">
+                                        </div>
+                                        <div class="dashboard__item-body">
+
+
+                                            <div class="dashboard__summary">
+                                                <h3 class="dashboard__body-title">Today</h3>
+                                                <div class="dashboard__summary-items">
+                                                    <div class="dashboard__summary-item">
+                                                        <div class="dashboard__summary-title">
+                                                            <span>Net volume</span>
+                                                            <img src="./img/section-1/rocket-small-arrow-down.svg"
+                                                                alt="arrow-down">
+                                                        </div>
+                                                        <h5 class="dashboard__summary-price">$3,528,198.72</h5>
+                                                        <div class="dashboard__summary-time">2:00 PM</div>
                                                     </div>
-                                                    <h5 class="dashboard__summary-price">$3,528,198.72</h5>
-                                                    <div class="dashboard__summary-time">2:00 PM</div>
+                                                    <div class="dashboard__summary-item">
+                                                        <div class="dashboard__summary-title">
+                                                            <span>Yesterday</span>
+                                                            <img src="./img/section-1/rocket-small-arrow-down.svg"
+                                                                alt="arrow-down">
+                                                        </div>
+                                                        <h5 class="dashboard__daily-price">$2,931,556.34</h5>
+                                                    </div>
                                                 </div>
-                                                <div class="dashboard__summary-item">
-                                                    <div class="dashboard__summary-title">
-                                                        <span>Yesterday</span>
-                                                        <img src="./img/section-1/rocket-small-arrow-down.svg"
-                                                            alt="arrow-down">
+
+                                                <div class="dashboard__summary-visual">
+
+                                                    <div class="cover2">
+                                                        <canvas id="myChart2" height="70" width="470"></canvas>
                                                     </div>
-                                                    <h5 class="dashboard__daily-price">$2,931,556.34</h5>
+                                                </div>
+                                                <div class="dashboard__summary-subtitles">
+                                                    <span>12:00 AM</span>
+                                                    <span>Now, 2:00 PM</span>
+                                                    <span>11:59 PM</span>
                                                 </div>
                                             </div>
 
-                                            <div class="dashboard__summary-visual">
+                                            <div class="dashboard__analytics">
+                                                <div class="analytics__items">
+                                                    <div class="analytics__item">
+                                                        <div class="analytics__item-header">
+                                                            <div class="analytics__item-title">
+                                                                <span>Net volume from sales</span>
+                                                                <span>+32.8%</span>
+                                                            </div>
+                                                            <h5 class="analytics__item-subtitle">
+                                                                <span>$39,274.29</span>
+                                                                <span>$29,573.54</span>
+                                                            </h5>
+                                                        </div>
+                                                        <div class="analytics__item-body">
 
-                                                <div class="cover2">
-                                                    <canvas id="myChart2" height="70" width="470"></canvas>
+                                                            <div class="cover">
+                                                                <canvas id="myChart" width="205" height="105"></canvas>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="analytics__item-footer">
+                                                            <div class="analytics__item-date">
+                                                                <span>Apr 20</span>
+                                                                <span>Today</span>
+                                                            </div>
+                                                            <div class="analytics__item-update">
+                                                                Updated today 7:50 AM
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="analytics__item">
+                                                        <div class="analytics__item-header">
+                                                            <div class="analytics__item-title">
+                                                                <span>New customers</span>
+                                                                <span>+32.1%</span>
+                                                            </div>
+                                                            <h5 class="analytics__item-subtitle">
+                                                                <span>37</span>
+                                                                <span>28</span>
+                                                            </h5>
+                                                        </div>
+                                                        <div class="analytics__item-body">
+
+                                                            <div class="cover">
+                                                                <canvas id="myChart1" width="205" height="105"></canvas>
+                                                            </div>
+                                                        </div>
+                                                        <div class="analytics__item-footer">
+                                                            <div class="analytics__item-date">
+                                                                <span>Apr 20</span>
+                                                                <span>Today</span>
+                                                            </div>
+                                                            <div class="analytics__item-update">
+                                                                Updated today 7:50 AM
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="analytics__item">
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="dashboard__summary-subtitles">
-                                                <span>12:00 AM</span>
-                                                <span>Now, 2:00 PM</span>
-                                                <span>11:59 PM</span>
                                             </div>
                                         </div>
-
-                                        <div class="dashboard__analytics">
-                                            <div class="analytics__items">
-                                                <div class="analytics__item">
-                                                    <div class="analytics__item-header">
-                                                        <div class="analytics__item-title">
-                                                            <span>Net volume from sales</span>
-                                                            <span>+32.8%</span>
-                                                        </div>
-                                                        <h5 class="analytics__item-subtitle">
-                                                            <span>$39,274.29</span>
-                                                            <span>$29,573.54</span>
-                                                        </h5>
-                                                    </div>
-                                                    <div class="analytics__item-body">
-
-                                                        <div class="cover">
-                                                            <canvas id="myChart" width="205" height="105"></canvas>
-                                                        </div>
-
-                                                    </div>
-                                                    <div class="analytics__item-footer">
-                                                        <div class="analytics__item-date">
-                                                            <span>Apr 20</span>
-                                                            <span>Today</span>
-                                                        </div>
-                                                        <div class="analytics__item-update">
-                                                            Updated today 7:50 AM
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="analytics__item">
-                                                    <div class="analytics__item-header">
-                                                        <div class="analytics__item-title">
-                                                            <span>New customers</span>
-                                                            <span>+32.1%</span>
-                                                        </div>
-                                                        <h5 class="analytics__item-subtitle">
-                                                            <span>37</span>
-                                                            <span>28</span>
-                                                        </h5>
-                                                    </div>
-                                                    <div class="analytics__item-body">
-
-                                                        <div class="cover">
-                                                            <canvas id="myChart1" width="205" height="105"></canvas>
-                                                        </div>
-                                                    </div>
-                                                    <div class="analytics__item-footer">
-                                                        <div class="analytics__item-date">
-                                                            <span>Apr 20</span>
-                                                            <span>Today</span>
-                                                        </div>
-                                                        <div class="analytics__item-update">
-                                                            Updated today 7:50 AM
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="analytics__item">
-
-                                                </div>
-                                            </div>
-                                        </div>
-
                                     </div>
-
-
-
-
-
                                 </div>
-
                             </div>
-
-
                         </div>
                     </div>
-
+                    <div class="financial__logos">
+                        <ul>
+                            <li>
+                                <a href="#!"><img class="amazon" src="./img/section-1/icons/amazon.svg"
+                                        alt="amazon"></a>
+                                <a href="#!"><img class="shopyfy" src="./img/section-1/icons/shopyfy.svg"
+                                        alt="shopyfy"></a>
+                            </li>
+                            <li>
+                                <a href="#!"><img class="salesforce" src="./img/section-1/icons/salesforce.svg"
+                                        alt="salesforce"></a>
+                                <a href="#!"><img class="whats-app" src="./img/section-1/icons/whatsapp_.svg"
+                                        alt="whats-app"></a>
+                            </li>
+                            <li>
+                                <a href="#!"> <img class="google" src="./img/section-1/icons/google.svg"
+                                        alt="google"></a>
+                                <a href="#!"><img class="bmv" src="./img/section-1/icons/bmv.svg" alt="bmv"></a>
+                            </li>
+                            <li>
+                                <a href="#!"><img class="urbn" src="./img/section-1/icons/urbn.svg" alt="urbn"></a>
+                                <a href="#!"><img class="marriot" src="./img/section-1/icons/marriot.svg"
+                                        alt="marriot"></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="financial__logos">
-                    <ul>
-                        <li>
-                            <a href="#!"><img class="amazon" src="./img/section-1/icons/amazon.svg"
-                                    alt="amazon"></a>
-                            <a href="#!"><img class="shopyfy" src="./img/section-1/icons/shopyfy.svg"
-                                    alt="shopyfy"></a>
-                        </li>
-                        <li>
-                            <a href="#!"><img class="salesforce" src="./img/section-1/icons/salesforce.svg"
-                                    alt="salesforce"></a>
-                            <a href="#!"><img class="whats-app" src="./img/section-1/icons/whatsapp_.svg"
-                                    alt="whats-app"></a>
-                        </li>
-                        <li>
-                            <a href="#!"> <img class="google" src="./img/section-1/icons/google.svg"
-                                    alt="google"></a>
-                            <a href="#!"><img class="bmv" src="./img/section-1/icons/bmv.svg" alt="bmv"></a>
-                        </li>
-                        <li>
-                            <a href="#!"><img class="urbn" src="./img/section-1/icons/urbn.svg" alt="urbn"></a>
-                            <a href="#!"><img class="marriot" src="./img/section-1/icons/marriot.svg"
-                                    alt="marriot"></a>
-                        </li>
-                    </ul>
+
+
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="container lines">
+
+                <div class="products__line-decore">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="products__items">
+                    <div class="products__item integration">
+                        <h3 class="products__item-tagline">Modular solutions</h3>
+                        <h2 class="products__item-title">A fully integrated
+                            suite of financial
+                            and payments
+                            products</h2>
+                        <p class="products__item-subtitle">
+                            Reduce costs, grow revenue, and run your business
+                            more efficiently on a fully integrated platform. Use
+                            Stripe to handle all of your payments-related needs,
+                            manage revenue operations, and launch (or invent) new<br>
+                            business models.
+                        </p>
+                    </div>
+                    <div class="products__item">
+                        <div class="products__item-cards">
+                            <div class="products__item-commercial">
+                                <div class="commercial">
+                                    <div class="commercial__header">kavholm</div>
+                                    <div class="commercial__footer">
+                                        <h3 class="commercial__footer-title">
+                                            Jane Diaz
+                                        </h3>
+                                        <div class="commercial__footer-item">
+                                            <span>commercial</span>
+                                            <img src="./img/section-2/visa-comercial-logo.svg" alt="visa">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products__item-rocket">
+                                <div class="rocket">
+                                    <div class="rocket__header">
+                                        <img src="./img/section-2/rocked-rides-logo.svg" alt="">
+                                    </div>
+                                    <div class="rocket__footer">
+                                        <h4 class="rocket__footer-title">Lanchlan Brown</h4>
+                                        <img src="./img/section-2/rocked-visa-logo.svg" alt="rocked-visa">
+                                    </div>
+                                    <div class="rocket__decore">
+                                        <img src="./img/section-2/rocked-rides-decore.svg" alt="rides-decore">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products__item-powdur">
+                                <div class="powdur">
+                                    <h2 class="powdur__header">powdur</h2>
+                                    <div class="powdur__footer">
+                                        <h4 class="powdur__footer-title">Frank McNamara</h4>
+                                        <img src="./img/section-2/visa-powdur-logo.svg" alt="powdur-logo">
+                                    </div>
+                                    <div class="powdur__decores">
+                                        <img src="./img/section-2/powdur-decore-1.svg" alt="decore-1">
+                                        <img src="./img/section-2/powdur-decore-2.svg" alt="decore-2">
+                                        <img src="./img/section-2/powdur-decore-3.svg" alt="decore-3">
+                                        <img src="./img/section-2/powdur-decore-4.svg" alt="decore-4">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cards__funcs">
+                                <div class="icon__cover icon-one">
+                                    <img src="./img/section-2/cards-icon-1.svg" alt="icon-1">
+                                </div>
+                                <div class="icon__cover icon-two">
+                                    <img src="./img/section-2/cards-icon-2.svg" alt="icon-2">
+                                </div>
+                                <div class="icon__cover icon-three">
+                                    <img src="./img/section-2/cards-icon-3.svg" alt="icon-3">
+                                </div>
+                                <div class="icon__cover icon-four">
+                                    <img src="./img/section-2/cards-icon-4.svg" alt="icon-3">
+                                </div>
+
+
+
+                            </div>
+                        </div>
+
+                        <div class="product__mobile-items">
+                            <div class="icon__mibile-1 item">
+                                <img src="./img/section-2/products-icons/icon-1.svg" alt="mibile-icon">
+                            </div>
+                            <div class="icon__mibile-2 item">
+                                <img src="./img/section-2/products-icons/icon-2.svg" alt="mibile-icon">
+                            </div>
+                            <div class="icon__mibile-3 item">
+                                <img src="./img/section-2/products-icons/icon-3.svg" alt="mibile-icon">
+                            </div>
+                            <div class="icon__mibile-4 item">
+                                <img src="./img/section-2/products-icons/icon-4.svg" alt="mibile-icon">
+                            </div>
+                            <div class="icon__mibile-5 item">
+                                <img src="./img/section-2/products-icons/icon-5.svg" alt="mibile-icon">
+                            </div>
+                            <div class="icon__mibile-6 item shadow">
+                                <img src="./img/section-2/products-icons/icon-6.svg" alt="mibile-icon">
+                                <span>Payments</span>
+                            </div>
+                            <div class="icon__mibile-7 item">
+                                <img src="./img/section-2/products-icons/icon-7.svg" alt="mibile-icon">
+                            </div>
+                            <div class="icon__mibile-8 item">
+                                <img src="./img/section-2/products-icons/icon-8.svg" alt="mibile-icon">
+                            </div>
+                            <div class="icon__mibile-9 item shadow">
+                                <img src="./img/section-2/products-icons/icon-9.svg" alt="mibile-icon">
+                                <span>Connect</span>
+                            </div>
+                            <div class="icon__mibile-10 item">
+                                <img src="./img/section-2/products-icons/icon-10.svg" alt="mibile-icon">
+                            </div>
+                            <div class="icon__mibile-11 item shadow">
+                                <img src="./img/section-2/products-icons/icon-11.svg" alt="mibile-icon">
+                                <span>Terminal</span>
+                            </div>
+                            <div class="icon__mibile-12 item">
+                                <img src="./img/section-2/products-icons/icon-12.svg" alt="mibile-icon">
+                            </div>
+                            <div class="icon__mibile-13 item">
+                                <img src="./img/section-2/products-icons/icon-13.svg" alt="mibile-icon">
+                            </div>
+                            <div class="icon__mibile-14 item">
+                                <img src="./img/section-2/products-icons/icon-14.svg" alt="mibile-icon">
+                            </div>
+                            <div class="icon__mibile-15 item">
+                                <img src="./img/section-2/products-icons/icon-15.svg" alt="mibile-icon">
+                            </div>
+                            <div class="icon__mibile-16 item">
+                                <img src="./img/section-2/products-icons/icon-16.svg" alt="mibile-icon">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-
-        </div>
-    </section>
-</main>
-
+        </section>
+    </main>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="./js/script.js"></script>
