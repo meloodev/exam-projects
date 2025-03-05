@@ -14,7 +14,110 @@
 
 <body>
 
-  
+    <section class="payments">
+        <div class="container lines">
+            <div class="products__line-decore">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="payments__items">
+                <div class="payments__globally">
+                    <div class="payments__globally-tagline">
+                        <img src="./img/section-3/payments-logo.svg" alt="payments-logo">
+                        <span>Payments</span>
+                    </div>
+                    <h2 class="payments__title">Accept and optimize
+                        payments, globally</h2>
+                    <p class="payments__subtitle">Increase authorization rates, optimize your checkout
+                        conversion, and offer local payment methods in every
+                        market.</p>
+                    <button class="payments__btn">
+                        <span>Start with Payments</span>
+                        <img src="./img/section-3/arrow-right.svg" alt="arrow-r">
+                    </button>
+                    <dl>
+                        <dt>See also</dt>
+                        <dd><span>Tax</span> for automating sales tax and VAT</dd>
+                        <dd class="radar"><span>Radar</span> for fraud prevention and management</dd>
+                        <dd><span>Terminal</span> for custom in-person payments</dd>
+                    </dl>
+                </div>
+                <div class="payments__card">
+                    <form class="financial__card">
+
+                        <div class="financial__card-header">
+                            <div class="financial__card-logo payments-logo">
+                                <img src="./img/section-3/chair.png" alt="card-logo">
+                            </div>
+                            <h3 class="financial__card-title payments-descr">Wood Chair 001</h3>
+                            <div class="financial__card-subtitle payments-price"><span>$149</span></div>
+                            <button type="submit" class="financial__card-btn">
+                                <img src="./img/section-1/rocket-card-apple-pay.svg" alt="payments">
+                            </button>
+
+
+                            <button type="submit" class="financial__card-btn card-pay">
+                                <img class="pay__link" src="./img/section-3/link.svg" alt="link">
+                                <span>Pay Faster</span>
+                                <img src="./img/section-3/lock.svg" alt="lock">
+                            </button>
+
+
+
+
+                            <div class="financial__card-paymentmethod payments__method">
+                                <span>Or pay another way</span>
+                            </div>
+                        </div>
+
+                        <div class="financial__card-body">
+                            <div class="financial__card-email">
+                                <label for="mail-1">Email</label>
+                                <input class="financial__card-email" type="email" id="mail-1"
+                                    placeholder="jane.diaz@example.com">
+                            </div>
+
+                            <div class="financial__card-number">
+                                <label for="card-num-1">Card Information</label>
+                                <input type="text" id="card-num-1" placeholder="4242 4242 4242 4242">
+                                <img src="./img/section-1/rocket-card-visa.svg" alt="visa">
+                            </div>
+                            <div class="financial__card-info">
+                                <input class="financial__card-month" type="text" placeholder="MM / YY">
+                                <div class="financial__card-cvc">
+                                    <input class="financial__card-code" type="password" placeholder="CVC"
+                                        maxlength="3">
+                                    <img src="./img/section-1/rocket-card-cvc.svg" alt="cvc">
+                                </div>
+                            </div>
+                            <div class="card__locations">
+                                <label for="location-1">Country or region</label>
+                                <select id="location-1">
+                                    <option value="new-york-us" selected>New York, United States</option>
+                                    <option value="london-gb">London, United Kingdom</option>
+                                    <option value="toronto-ca">Toronto, Canada</option>
+                                    <option value="sydney-au">Sydney, Australia</option>
+                                    <option value="berlin-de">Berlin, Germany</option>
+                                    <option value="paris-fr">Paris, France</option>
+                                    <option value="rome-it">Rome, Italy</option>
+                                    <option value="madrid-es">Madrid, Spain</option>
+                                    <option value="tokyo-jp">Tokyo, Japan</option>
+                                    <option value="beijing-cn">Beijing, China</option>
+                                </select>
+                            </div>
+                            <input class="financial__card-zip" type="text" placeholder="ZIP">
+                        </div>
+
+                        <div class="financial__card-footer">
+                            <button type="submit">Pay $149</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
