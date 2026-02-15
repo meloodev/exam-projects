@@ -1,18 +1,18 @@
-@import "./null";
-@import "./fonts";
+@use "./null";
+@use "./fonts";
 
 /*sections*/
-@import "./markup-styles/header"; 
-@import "./markup-styles/sec-1-financial";
-@import "./markup-styles/sec-2-products";
-@import "./markup-styles/sec-3-payments";
-@import "./markup-styles/sec-4-billing";
-@import "./markup-styles/sec-5-connect";
-@import "./markup-styles/sec-6-issuing";
-@import "./markup-styles/sec-7-commerce";
-@import "./markup-styles/sec-8-enterprise";
-@import "./markup-styles/sec-9-startup";
-@import "./markup-styles/sec-10-powerful";
+@use "./markup-styles/header"; 
+@use "./markup-styles/sec-1-financial";
+@use "./markup-styles/sec-2-products";
+@use "./markup-styles/sec-3-payments";
+@use "./markup-styles/sec-4-billing";
+@use "./markup-styles/sec-5-connect";
+@use "./markup-styles/sec-6-issuing";
+@use "./markup-styles/sec-7-commerce";
+@use "./markup-styles/sec-8-enterprise";
+@use "./markup-styles/sec-9-startup";
+@use "./markup-styles/sec-10-powerful";
 
 
 .lines {
